@@ -1,0 +1,10 @@
+[user]
+	name = Farah adam
+	email = farah_adam_london@yahoo.fr
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\Samsung\\Documents\\gitignore_global.txt
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
